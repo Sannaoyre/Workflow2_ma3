@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/Sannaoyre/Workflow2_ma3/issues"
   },
-  "homepage": "https://github.com/Sannaoyre/Workflow2_ma3#readme"
+  "homepage": "https://github.com/Sannaoyre/Workflow2_ma3#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
 }
