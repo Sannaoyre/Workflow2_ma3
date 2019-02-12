@@ -1,0 +1,22 @@
+{
+  "name": "workflow2_ma3",
+  "version": "1.0.0",
+  "description": "Module assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sannaoyre/Workflow2_ma3.git"
+  },
+  "keywords": [
+    "Grunt"
+  ],
+  "author": "Sanna Oyre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sannaoyre/Workflow2_ma3/issues"
+  },
+  "homepage": "https://github.com/Sannaoyre/Workflow2_ma3#readme"
+}
