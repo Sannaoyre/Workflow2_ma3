@@ -46,8 +46,8 @@ module.exports = function (grunt) {
 							src: ['**/*.{png,jpg,gif,jpeg}'],
 							dest: 'images/'
 						}]
-				  }
-		}
+					}
+				}
 
 
 	});
