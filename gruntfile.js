@@ -11,8 +11,20 @@ module.exports = function (grunt) {
 				}
 			}
 		},
-		
-
+		browserSync: {
+			dev: {
+				bsFiles: {
+					src: [
+						'dist/css/minified/style.min.css',
+						'*.html'
+					]
+				},
+				options: {
+					watchTask: true,
+					server: './'
+				}
+			}
+		},
 		watch: {
 			css: {
 				files: 'less/style.less',
@@ -25,5 +37,6 @@ module.exports = function (grunt) {
 
 	grunt.loadNpmTasks('grunt-contrib-less');
 	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.registerTask('default', ['watch']);
+	grunt.loadNpmTasks('grunt-browser-sync');
+	grunt.registerTask('default', ['browserSync', 'watch']);
 }
