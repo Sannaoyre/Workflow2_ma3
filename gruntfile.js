@@ -44,7 +44,7 @@ module.exports = function (grunt) {
 							expand: true,
 							cwd: 'images/',
 							src: ['**/*.{png,jpg,gif,jpeg}'],
-							dest: 'images/'
+							dest: 'dist/image-minified'
 						}]
 					}
 				}
@@ -58,5 +58,5 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-browser-sync');
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
-	grunt.registerTask('default', ['browserSync', 'watch']);
+	grunt.registerTask('default', ['browserSync', 'watch', 'imagemin']);
 }
